@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* color de fondo de pagina */
+body {
+    background-color: rgb(252, 248, 243);
+}
+
+
+/* incio de header */
+
+header {
+    background-color: burlywood;
+    text-align: center;
+}
+header section{
+    background-color: #fff;
+    margin-right: 0% ;
+    text-align: center;
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding: 30px 50px    
+}
+
+
+/*fin header*/
+
+/* inicio main*/
+
+.contenedor
+{
+  width: 100%;
+  height: auto;
+  display: flex ;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+
+.cont1
+{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.cont2
+{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+/* transformacion en img que lleva a link de productos */
+.img-prod:hover{
+    transform: scale(0.7);
+}
+.texto-inicio {
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: lighter;
+    border-color: rgb(250, 184, 108);
+    width: 300px;
+    height: 200px;
+    border-width: 8px;
+    border-style: dotted;
+    padding: 10px 500px;
+    text-align: center;
+}
+main img{
+    margin: 100px 150px 100px 150px;
+    height: 300px;
+    width: 300px;
+}
+/*seleccion por clase a la breve introduccion que hay en nuestro inicio*/
+.texto{
+    margin: 10px;
+    width: 80%;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+    
+}
+
+.titulo {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 30px;
+    padding: 30px 500px;   
+}
+
+h4 {
+    margin: 10px;
+    width: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+    padding: 98px 100px;
+}
+
+.ubicacion {
+   text-align: center;
+   padding: 10px 10px 30px 10px;
+}
+
+/*fotos*/
+
+.foto{
+    max-width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px 0px 0px 0px;
+    display: block;
+    margin: auto;
+    
+}
+
+.foto2{
+    max-width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    
+}
+/* transicion y transformacion en imagenes de pagina de productos*/
+.foto-trans {
+    transition: all 2s;
+}
+
+.foto-trans:hover {
+    transform: scale(0.5);
+}
+
+/*texto debajo de imagenes*/
+#texto-imagenes{
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+    display: flex;
+    justify-content:space-evenly;
+}
+/*texto debajo de imagenes*/
+p{
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+
+/* inicio de footer*/
+
+ /* iconos de redireccion a nuestras redes*/
+ footer {
+    background-color: black;
+    text-align: left;
+    
+}
+
+
+footer section img{
+    
+    height: 50px;
+    width: 50px;
+    
+}
+
+.firma {
+    text-align: center;
+    color: black;
+    background-color: white;
+    }
+
+/*fin de footer*/
